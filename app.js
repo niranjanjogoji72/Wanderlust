@@ -63,7 +63,7 @@ const sessionOptions = {
 };
 
 // app.get("/", (req, res) => {
-//     res.send("Working");
+//     res.render("home");
 // });
 
 app.use(session(sessionOptions));
